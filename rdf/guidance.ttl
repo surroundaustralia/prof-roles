@@ -1,0 +1,18 @@
+---
+permalink: /guidance.ttl
+---
+@prefix cs: <https://data.surroundaustralia.com/def/prof-roles> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <https://data.surroundaustralia.com/def/prof-roles/> .
+
+
+:guidance
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
+    skos:prefLabel "Guidance"@en ;
+    skos:definition "Documents, in human-readable form, how to use the profile"@en ;
+    skos:inScheme cs: ;
+    skos:scopeNote "Many existing profiles treat their human-readable forms (PDF documents etc.) as authoritative. This role is suggestive of non-authoritativeness. For a role for a human-readable resource that is authoritative, see Specification"@en ;
+    skos:topConceptOf cs: ;
+.

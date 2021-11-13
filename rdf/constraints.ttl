@@ -1,0 +1,18 @@
+---
+permalink: /constraints.ttl
+---
+@prefix cs: <https://data.surroundaustralia.com/def/prof-roles> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <https://data.surroundaustralia.com/def/prof-roles/> .
+
+
+:constraints
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
+    skos:prefLabel "Constraints"@en ;
+    skos:definition "Descriptions of obligations, limitations or extensions that the profile defines"@en ;
+    skos:inScheme cs: ;
+    skos:scopeNote "Use this Role when you want to indicate the constraints that the associated Profile imposes on top of base specifications"@en ;
+    skos:topConceptOf cs: ;
+.

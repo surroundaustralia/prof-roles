@@ -1,0 +1,17 @@
+---
+permalink: /vocabulary.ttl
+---
+@prefix cs: <https://data.surroundaustralia.com/def/prof-roles> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <https://data.surroundaustralia.com/def/prof-roles/> .
+
+
+:vocabulary
+    a skos:Concept ;
+    rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
+    skos:prefLabel "Vocabulary"@en ;
+    skos:definition "Defines terms used in the profile specification"@en ;
+    skos:inScheme cs: ;
+    skos:topConceptOf cs: ;
+.
