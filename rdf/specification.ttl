@@ -7,7 +7,7 @@ permalink: /specification.ttl
 @prefix : <https://data.surroundaustralia.com/def/prof-roles/> .
 
 
-:specification
+<http://www.w3.org/ns/dx/prof/role/specification>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Specification"@en ;

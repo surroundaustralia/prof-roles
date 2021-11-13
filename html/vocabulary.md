@@ -7,6 +7,8 @@ permalink: /vocabulary
 
 ## {{ page.title }}
 
-`https://data.surroundaustralia.com/def/vocabulary`
+`http://www.w3.org/ns/dx/prof/role/vocabulary`
 
 Defines terms used in the profile specification.
+
+_In Scheme_: [PROF Resource Roles]({{ site.baseurl }}/)

@@ -32,15 +32,15 @@ permalink: /.ttl
     dcterms:created "2021-11-13"^^xsd:date ;
     dcterms:source "https://www.w3.org/TR/dx-prof/"^^xsd:anyURI ;
     skos:hasTopConcept 
-        :constraints ,
-        :example ,
-        :guidance ,
-        :mapping ,
+        <http://www.w3.org/ns/dx/prof/role/constraints> ,
+        <http://www.w3.org/ns/dx/prof/role/example> ,
+        <http://www.w3.org/ns/dx/prof/role/guidance> ,
+        <http://www.w3.org/ns/dx/prof/role/mapping> ,
         :repository ,
-        :schema ,
-        :specification ,
-        :validation ,
-        :vocabulary ;
+        <http://www.w3.org/ns/dx/prof/role/schema> ,
+        <http://www.w3.org/ns/dx/prof/role/specification> ,
+        <http://www.w3.org/ns/dx/prof/role/validation> ,
+        <http://www.w3.org/ns/dx/prof/role/vocabulary> ;
 .
 
 <https://linked.data.gov.au/def/surround>
@@ -57,7 +57,7 @@ permalink: /.ttl
     sdo:affiliation <https://linked.data.gov.au/org/surround> ;
 .
 
-:constraints
+<http://www.w3.org/ns/dx/prof/role/constraints>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Constraints"@en ;
@@ -67,7 +67,7 @@ permalink: /.ttl
     skos:topConceptOf cs: ;
 .
 
-:example
+<http://www.w3.org/ns/dx/prof/role/example>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Example"@en ;
@@ -77,7 +77,7 @@ permalink: /.ttl
     skos:topConceptOf cs: ;
 .
 
-:guidance
+<http://www.w3.org/ns/dx/prof/role/guidance>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Guidance"@en ;
@@ -87,7 +87,7 @@ permalink: /.ttl
     skos:topConceptOf cs: ;
 .
 
-:mapping
+<http://www.w3.org/ns/dx/prof/role/mapping>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Mapping"@en ;
@@ -107,7 +107,7 @@ permalink: /.ttl
     skos:topConceptOf cs: ;
 .
 
-:schema
+<http://www.w3.org/ns/dx/prof/role/schema>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Schema"@en ;
@@ -120,7 +120,7 @@ permalink: /.ttl
     skos:topConceptOf cs: ;
 .
 
-:specification
+<http://www.w3.org/ns/dx/prof/role/specification>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Specification"@en ;
@@ -130,7 +130,7 @@ permalink: /.ttl
     skos:topConceptOf cs: ;
 .
 
-:validation
+<http://www.w3.org/ns/dx/prof/role/validation>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Validation"@en ;
@@ -140,7 +140,7 @@ permalink: /.ttl
     skos:topConceptOf cs: ;
 .
 
-:vocabulary
+<http://www.w3.org/ns/dx/prof/role/vocabulary>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Vocabulary"@en ;

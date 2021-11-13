@@ -7,7 +7,7 @@ permalink: /constraints.ttl
 @prefix : <https://data.surroundaustralia.com/def/prof-roles/> .
 
 
-:constraints
+<http://www.w3.org/ns/dx/prof/role/constraints>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Constraints"@en ;

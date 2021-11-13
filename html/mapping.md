@@ -7,8 +7,10 @@ permalink: /mapping
 
 ## {{ page.title }}
 
-`https://data.surroundaustralia.com/def/mapping`
+`http://www.w3.org/ns/dx/prof/role//mapping`
 
 Describes conversions between two Standards.
 
 _Scope Note_: Changed word Specifications to Standards in definition compared with PROF.
+
+_In Scheme_: [PROF Resource Roles]({{ site.baseurl }}/)

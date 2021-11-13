@@ -7,8 +7,10 @@ permalink: /schema
 
 ## {{ page.title }}
 
-`https://data.surroundaustralia.com/def/schema`
+`http://www.w3.org/ns/dx/prof/role//schema`
 
 _Alternative Labels_: Shape, Structure
 
 Machine-readable structural descriptions of data defined by the profile.
+
+_In Scheme_: [PROF Resource Roles]({{ site.baseurl }}/)

@@ -7,7 +7,7 @@ permalink: /vocabulary.ttl
 @prefix : <https://data.surroundaustralia.com/def/prof-roles/> .
 
 
-:vocabulary
+<http://www.w3.org/ns/dx/prof/role/vocabulary>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Vocabulary"@en ;

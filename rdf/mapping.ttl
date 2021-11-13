@@ -7,7 +7,7 @@ permalink: /mapping.ttl
 @prefix : <https://data.surroundaustralia.com/def/prof-roles/> .
 
 
-:mapping
+<http://www.w3.org/ns/dx/prof/role/mapping>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Mapping"@en ;

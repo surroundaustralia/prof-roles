@@ -7,7 +7,7 @@ permalink: /guidance.ttl
 @prefix : <https://data.surroundaustralia.com/def/prof-roles/> .
 
 
-:guidance
+<http://www.w3.org/ns/dx/prof/role/guidance>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Guidance"@en ;

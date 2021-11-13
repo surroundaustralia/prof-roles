@@ -7,7 +7,7 @@ permalink: /schema.ttl
 @prefix : <https://data.surroundaustralia.com/def/prof-roles/> .
 
 
-:schema
+<http://www.w3.org/ns/dx/prof/role/schema>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
     skos:prefLabel "Schema"@en ;

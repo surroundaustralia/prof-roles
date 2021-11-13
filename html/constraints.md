@@ -7,8 +7,10 @@ permalink: /constraints
 
 ## {{ page.title }}
 
-`https://data.surroundaustralia.com/def/constraints`
+`http://www.w3.org/ns/dx/prof/role/constraints`
 
 Descriptions of obligations, limitations or extensions that the profile defines.
 
 _Scope Note_: Use this Role when you want to indicate the constraints that the associated Profile imposes on top of base specifications.
+
+_In Scheme_: [PROF Resource Roles]({{ site.baseurl }}/)
