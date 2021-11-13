@@ -7,4 +7,6 @@ permalink: /vocabulary
 
 ## {{ page.title }}
 
+`https://data.surroundaustralia.com/def/vocabulary`
+
 Defines terms used in the profile specification.

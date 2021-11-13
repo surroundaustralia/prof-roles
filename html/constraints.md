@@ -7,6 +7,8 @@ permalink: /constraints
 
 ## {{ page.title }}
 
+`https://data.surroundaustralia.com/def/constraints`
+
 Descriptions of obligations, limitations or extensions that the profile defines.
 
 _Scope Note_: Use this Role when you want to indicate the constraints that the associated Profile imposes on top of base specifications.
