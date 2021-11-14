@@ -13,4 +13,4 @@ Supplies instructions about how to verify conformance of data to the profile.
 
 _Scope Note_: This role implies inclusion or import of inherited constraints.
 
-_In Scheme_: [PROF Resource Roles]({{ site.baseurl }}/)
+_In Scheme_: [PROF Roles]({{ site.baseurl }}/)

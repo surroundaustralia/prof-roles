@@ -13,4 +13,4 @@ Defining the profile in human-readable form.
 
 _Scope Note_: This role indicates authoritativeness. For a role for a human-readable resource that is not authoritative, see [Guidance]({{ site.baseurl }}/guidance).
 
-_In Scheme_: [PROF Resource Roles]({{ site.baseurl }}/)
+_In Scheme_: [PROF Roles]({{ site.baseurl }}/)

@@ -13,4 +13,4 @@ _Alternative Labels_: Shape, Structure
 
 Machine-readable structural descriptions of data defined by the profile.
 
-_In Scheme_: [PROF Resource Roles]({{ site.baseurl }}/)
+_In Scheme_: [PROF Roles]({{ site.baseurl }}/)

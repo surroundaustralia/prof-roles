@@ -16,7 +16,7 @@ permalink: /.ttl
 
 <https://data.surroundaustralia.com/def/prof-roles> 
     a owl:Ontology , skos:ConceptScheme;
-    skos:prefLabel "Registry Roles Vocabulary"@en ;
+    skos:prefLabel "PROF Roles Vocabulary"@en ;
     skos:definition """This vocabulary is a flat - no hierarchy - listing of the roles for people and organisations defined within the ISO standard 19135 "Geographic information — Procedures for item registration ISO/DIS 19135-1" https://www.iso.org/standard/54721.html."""@en ;
     owl:versionIRI <https://data.surroundaustralia.com/def/prof-roles/1.0> ;
     owl:versionInfo "1.0"@en ;

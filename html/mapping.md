@@ -13,4 +13,4 @@ Describes conversions between two Standards.
 
 _Scope Note_: Changed word Specifications to Standards in definition compared with PROF.
 
-_In Scheme_: [PROF Resource Roles]({{ site.baseurl }}/)
+_In Scheme_: [PROF Roles]({{ site.baseurl }}/)

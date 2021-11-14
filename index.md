@@ -5,7 +5,7 @@ permalink: /
 ---
 # Vocabulary
 
-## PROF Resource Roles 
+## PROF Roles 
 
 {: .concept_scheme .alternating}  
 Element | Value

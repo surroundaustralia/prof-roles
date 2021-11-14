@@ -11,4 +11,4 @@ permalink: /vocabulary
 
 Defines terms used in the profile specification.
 
-_In Scheme_: [PROF Resource Roles]({{ site.baseurl }}/)
+_In Scheme_: [PROF Roles]({{ site.baseurl }}/)
