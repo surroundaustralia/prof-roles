@@ -99,7 +99,7 @@ permalink: /.ttl
 
 :repository
     a skos:Concept ;
-    rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
+    rdfs:isDefinedBy <https://data.surroundaustralia.com/def/prof-roles> ;
     skos:prefLabel "Repository"@en ;
     skos:definition "A system used to store all, or many, of the Profile's parts"@en ;
     skos:inScheme cs: ;
