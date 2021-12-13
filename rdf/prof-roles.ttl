@@ -27,7 +27,7 @@ permalink: /.ttl
     dcterms:publisher <https://linked.data.gov.au/org/surround> ;
     rdfs:seeAlso <https://github.com/surroundaustralia/prof-roles> ;
     dcterms:issued "2021-11-13"^^xsd:date ;
-    dcterms:modified "2021-11-13"^^xsd:date ;
+    dcterms:modified "2021-12-13"^^xsd:date ;
     dcterms:rights "(c) SURROUND Australia Pty Ltd, 2021"@en ;
     dcterms:created "2021-11-13"^^xsd:date ;
     dcterms:source "https://www.w3.org/TR/dx-prof/"^^xsd:anyURI ;
@@ -37,6 +37,7 @@ permalink: /.ttl
         <http://www.w3.org/ns/dx/prof/role/guidance> ,
         <http://www.w3.org/ns/dx/prof/role/mapping> ,
         :repository ,
+        :profile-definition ,
         <http://www.w3.org/ns/dx/prof/role/schema> ,
         <http://www.w3.org/ns/dx/prof/role/specification> ,
         <http://www.w3.org/ns/dx/prof/role/validation> ,
