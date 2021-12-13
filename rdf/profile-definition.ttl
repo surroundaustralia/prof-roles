@@ -1,0 +1,18 @@
+---
+permalink: /profile-definition.ttl
+---
+@prefix cs: <https://data.surroundaustralia.com/def/prof-roles> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <https://data.surroundaustralia.com/def/prof-roles/> .
+
+
+:profile-definition
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.surroundaustralia.com/def/prof-roles> ;
+    skos:prefLabel "Profile Definition"@en ;
+    skos:definition "Defines the Profile: its parts and relations to other Profiles"@en ;
+    skos:inScheme cs: ;
+    skos:scopeNote "Use this Role for the the profile-defining resource"@en ;
+    skos:topConceptOf cs: ;
+.

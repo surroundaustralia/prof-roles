@@ -107,6 +107,16 @@ permalink: /.ttl
     skos:topConceptOf cs: ;
 .
 
+:profile-definition
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://data.surroundaustralia.com/def/prof-roles> ;
+    skos:prefLabel "Profile Definition"@en ;
+    skos:definition "Defines the Profile: its parts and relations to other Profiles"@en ;
+    skos:inScheme cs: ;
+    skos:scopeNote "Use this Role for the the profile-defining resource"@en ;
+    skos:topConceptOf cs: ;
+.
+
 <http://www.w3.org/ns/dx/prof/role/schema>
     a skos:Concept ;
     rdfs:isDefinedBy <http://www.w3.org/ns/dx/prof/role> ;
